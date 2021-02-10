@@ -495,18 +495,22 @@ img {
   list-style: circle;
 }
 #mu-about-us .mu-about-us-area .mu-about-us-right {
-  display: inline;
-  float: left;
   display: block;
+  float: left;
+  width: 100%;
+  max-width: 100%;
+  background-color: #ccc;
 }
 #mu-about-us .mu-about-us-area .mu-about-us-right iframe {
   display: block;
+  width: 100%;
+  max-width: 100%;
   position: relative;
 }
 /* #mu-about-us .mu-about-us-area .mu-about-us-right a img {
   width: 100%;
 } */
-#mu-about-us .mu-about-us-area .mu-about-us-right a:after {
+#mu-about-us .mu-about-us-area .mu-about-us-right iframe:after {
   background-color: rgba(0, 0, 0, 0.8);
   bottom: 0;
   color: #ddd;

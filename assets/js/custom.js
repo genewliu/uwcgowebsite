@@ -67,9 +67,11 @@ jQuery(function ($) {
     dots: false,
     infinite: true,
     arrows: true,
-    speed: 500,
+    speed: 1000,
+    autoplaySpeed: 10000,
     autoplay: true,
     cssEase: "linear",
+    fade: true,
   });
 
   /* ----------------------------------------------------------- */

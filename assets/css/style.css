@@ -580,6 +580,7 @@ img {
   float: left;
   padding: 100px 0;
   width: 100%;
+  opacity: 0.7;
 }
 #mu-abtus-counter .mu-abtus-counter-area {
   display: inline;
@@ -587,26 +588,26 @@ img {
   width: 100%;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single {
-  border-right: 2px solid #888;
+  border-right: 2px solid #01bafd;
   display: inline;
   float: left;
   text-align: center;
   width: 100%;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single span {
-  color: #fff;
+  color: #01bafd;
   display: inline-block;
   font-size: 50px;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single h4 {
-  color: #fff;
+  color: #01bafd;
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 5px;
   margin-top: 20px;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single p {
-  color: #fff;
+  color: #01bafd;
   font-size: 18px;
   text-transform: uppercase;
 }

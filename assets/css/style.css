@@ -86,8 +86,8 @@ img {
 }
 
 #logo {
-  width: 270px;
-  height: 83px;
+  width: 250px;
+  height: 70px;
 }
 
 .mu-read-more-btn {
@@ -497,19 +497,15 @@ img {
 #mu-about-us .mu-about-us-area .mu-about-us-right {
   display: inline;
   float: left;
-  width: 100%;
   display: block;
-  width: 100%;
-  background-color: #ccc;
 }
-#mu-about-us .mu-about-us-area .mu-about-us-right a {
+#mu-about-us .mu-about-us-area .mu-about-us-right iframe {
   display: block;
-  width: 100%;
   position: relative;
 }
-#mu-about-us .mu-about-us-area .mu-about-us-right a img {
+/* #mu-about-us .mu-about-us-area .mu-about-us-right a img {
   width: 100%;
-}
+} */
 #mu-about-us .mu-about-us-area .mu-about-us-right a:after {
   background-color: rgba(0, 0, 0, 0.8);
   bottom: 0;

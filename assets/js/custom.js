@@ -43,13 +43,13 @@ jQuery(function ($) {
   /*  2. ABOUT US VIDEO
 /* ----------------------------------------------------------- */
   // WHEN CLICK PLAY BUTTON
-  jQuery("#mu-abtus-video").on("click", function (event) {
-    event.preventDefault();
-    $("body").append(
-      "<div id='about-video-popup'><span id='mu-video-close' class='fa fa-close'></span><iframe id='mutube-video' name='mutube-video' frameborder='0' allowfullscreen></iframe></div>"
-    );
-    $("#mutube-video").attr("src", $(this).attr("href"));
-  });
+  // jQuery("#mu-abtus-video").on("click", function (event) {
+  //   event.preventDefault();
+  //   $("body").append(
+  //     "<div id='about-video-popup'><span id='mu-video-close' class='fa fa-close'></span><iframe id='mutube-video' name='mutube-video' frameborder='0' allowfullscreen></iframe></div>"
+  //   );
+  //   $("#mutube-video").attr("src", $(this).attr("href"));
+  // });
   // WHEN CLICK CLOSE BUTTON
   $(document).on("click", "#mu-video-close", function (event) {
     $(this).parent("div").fadeOut(1000);

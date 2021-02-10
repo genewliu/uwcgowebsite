@@ -51,13 +51,13 @@ jQuery(function ($) {
   //   $("#mutube-video").attr("src", $(this).attr("href"));
   // });
   // WHEN CLICK CLOSE BUTTON
-  $(document).on("click", "#mu-video-close", function (event) {
-    $(this).parent("div").fadeOut(1000);
-  });
-  // WHEN CLICK OVERLAY BACKGROUND
-  $(document).on("click", "#about-video-popup", function (event) {
-    $(this).remove();
-  });
+  // $(document).on("click", "#mu-video-close", function (event) {
+  //   $(this).parent("div").fadeOut(1000);
+  // });
+  // // WHEN CLICK OVERLAY BACKGROUND
+  // $(document).on("click", "#about-video-popup", function (event) {
+  //   $(this).remove();
+  // });
 
   /* ----------------------------------------------------------- */
   /*  3. TOP SLIDER (SLICK SLIDER)
